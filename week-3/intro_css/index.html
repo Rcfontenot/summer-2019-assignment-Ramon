@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Practice</title>
+    
+    <style>
+        
+        /* This is how you write a note in CSS.
+        It only works inside of styles.
+        */
+        
+        p{
+            font-family: monospace;
+            
+            }
+        
+        
+        h1{
+            
+            border-width: 2px;
+            border-style: groove;
+            border-color: antiquewhite;
+        }
+        
+        #gloria {
+            font-family: cursive;
+            
+        }
+        
+        #blue{
+            
+            background-color: chocolate;
+            color: blue;
+            
+        }
+        
+        #green-border {
+                border-color: green;
+        }
+        
+        #red {
+            
+            color: red;
+        }
+        
+        .odd {
+            
+            background-color: grey;
+            color: greenyellow;
+        }
+        
+        /*cascading rule: the last command is the most important and will be displayed.*/
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+    <p id="gloria"> CSS Practice Text</p>
+    </div>
+    
+    <div>
+    <h1 id="green-border">This is a Test</h1>
+        <ol id="red">
+            <li class="odd">Gum</li>
+            <li>Bleach</li>
+            <li class="odd">Shoes</li>
+            <li>Milk</li>
+            <li class="odd">Socks</li>
+            <li>Flour</li>
+        </ol>
+    </div>
+    
+    <div>
+    <p id="blue"> Styling It Up</p>
+    </div>
+</body>
+</html>
