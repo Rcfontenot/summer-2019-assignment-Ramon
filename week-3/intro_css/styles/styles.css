@@ -1,0 +1,32 @@
+#container {
+    
+    width: 700px;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+#header{
+    
+    border-style: dotted;
+    border-width: 2px;
+    width: 700px;
+    height: 100px;
+    border-color: burlywood
+}
+
+#main {
+    
+    background-color: black;
+    width: 700px;
+    height: 100px;
+    color: greenyellow;
+}
+
+#footer {
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+    width: 700px;
+    height: 100px;
+}
+
