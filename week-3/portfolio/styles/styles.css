@@ -13,7 +13,7 @@ header {
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;  
+    background-color: white;
     
 }
 
@@ -25,6 +25,7 @@ main{
     background-color: white;
     color: forestgreen;
     font-family: sans-serif;
+    
 }
 
 footer{
@@ -34,9 +35,11 @@ footer{
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    text-align: center;
 }
 
 h1 {font-family: cursive; color: maroon; font-size: 36px;
+    text-align: center;
 }
 
 a {
@@ -71,4 +74,13 @@ li {
     font-family: "serif";
     font-size: 16 px;
     color: darkblue;
+}
+
+#intro-image {
+    
+    text-align: center;
+}
+
+#intro-image img {
+    width: 500px;
 }
