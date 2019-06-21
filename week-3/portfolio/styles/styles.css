@@ -40,6 +40,7 @@ footer{
 
 h1 {font-family: cursive; color: maroon; font-size: 36px;
     text-align: center;
+   
 }
 
 a {
@@ -82,5 +83,18 @@ li {
 }
 
 #intro-image img {
-    width: 500px;
+    width: 300px;
+    border-radius: 70%;
+}
+
+#intro-image #mn {
+    
+    width: 200px;
+    border-radius: 50%;
+    opacity: .50;
+}
+
+div {
+    opacity: .7;
+    border-radius: 50%;
 }
