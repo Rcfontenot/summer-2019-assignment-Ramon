@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+    
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Practice</title>
+    
+    <style>
+        body {
+            background-color: #592D25;
+        }
+        
+        main p{
+            text-decoration: underline;
+        }
+        
+        body > div > main p {
+            
+            color: yellow;
+        }
+        
+        body div main p {
+            
+            color: cyan;
+        }
+        
+        #bolded {
+            font-weight: bold;
+        }
+        
+        #italicized{
+            font-style: italic;
+        }
+        
+        #underline {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>Header</h1>
+         <p>This is the <span id="bolded">header</span> section.</p>
+      </header>
+    <main>
+      <h1>Main</h1>
+       <p>This is the <span id="italicized">main</span> section.</p>
+        <ul>
+            <li><span id="underline">soap</span></li>
+            <li>gum</li>
+            <li><span id="underline">foil</span></li>
+            <li>paper towels</li>
+            <li><span id="underline">plates</span></li>
+        </ul>
+      </main>
+      <div id="anothercontainer">
+      <main>
+          This is a second main.
+          </main>
+      </div>
+    <footer>
+      <h1>Footer</h1>
+        <p>This is the footer section.</p>
+      </footer>
+</div>
+</body>
+    
+</html>

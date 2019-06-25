@@ -43,27 +43,6 @@ h1 {font-family: cursive; color: maroon; font-size: 36px;
    
 }
 
-a {
-    font-size: 12px;
-    font-family: "ariel", sans-serif;
-    
-}
-
-a:link {
-    color: pink;
-}
-
-a:visited {
-    color: red;
-}
-
-a:hover {
-    color: beige;
-}
-
-a:active {
-    color: yellow;
-}
 
 p {
     font-family: "serif";
@@ -71,15 +50,18 @@ p {
     color: darkgoldenrod;
 }
 
+h2 {
+    font-family: "serif";
+    font-size: 18 px;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+
 li {
     font-family: "serif";
     font-size: 16 px;
     color: darkblue;
-}
-
-#intro-image {
-    
-    text-align: center;
 }
 
 #intro-image img {
@@ -87,14 +69,4 @@ li {
     border-radius: 70%;
 }
 
-#intro-image #mn {
-    
-    width: 200px;
-    border-radius: 50%;
-    opacity: .50;
-}
 
-div {
-    opacity: .7;
-    border-radius: 50%;
-}
