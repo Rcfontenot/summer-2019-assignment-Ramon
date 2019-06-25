@@ -12,61 +12,36 @@
             background-color: #592D25;
         }
         
-        main p{
+        .special {
+            font-size: 24px;
+        }
+        
+        span.special {
             text-decoration: underline;
         }
         
-        body > div > main p {
-            
-            color: yellow;
+        span.special {
+            text-decoration: line-through underline;
         }
         
-        body div main p {
-            
-            color: cyan;
-        }
-        
-        #bolded {
-            font-weight: bold;
-        }
-        
-        #italicized{
-            font-style: italic;
-        }
-        
-        #underline {
-            text-decoration: underline;
-        }
+        #outer .inner {}
+
     </style>
     
 </head>
 
 <body>
   <div id="container">
-    <header>
-      <h1>Header</h1>
-         <p>This is the <span id="bolded">header</span> section.</p>
-      </header>
-    <main>
-      <h1>Main</h1>
-       <p>This is the <span id="italicized">main</span> section.</p>
-        <ul>
-            <li><span id="underline">soap</span></li>
-            <li>gum</li>
-            <li><span id="underline">foil</span></li>
-            <li>paper towels</li>
-            <li><span id="underline">plates</span></li>
-        </ul>
-      </main>
-      <div id="anothercontainer">
-      <main>
-          This is a second main.
-          </main>
+      
+      <div id="outer">
+      <p class="inner">I am inside the outer div</p>
+          <p class="special">I am special</p>
       </div>
-    <footer>
-      <h1>Footer</h1>
-        <p>This is the footer section.</p>
-      </footer>
+      
+      <p>Hello <span class="special">there</span>, I am a p tag.</p>
+      <h1>How are you <span class="special">doing</span>, I am a h1 tag</h1>
+
+
 </div>
 </body>
     
