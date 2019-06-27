@@ -7,42 +7,72 @@
 
   <title>CSS Practice</title>
     
+    
+    <!-- CSS Internal Stylesheet -->
     <style>
         body {
-            background-color: #592D25;
+            background-image: url("images/bg2.jpg");
+            background-size: cover;
         }
         
-        .special {
-            font-size: 24px;
+        #playground {
+            
+            width: 600px;
+            height: 600px;
+            border: solid black 5px;
+            background-color: beige;
+            margin: 0 auto;
+            
+        }
+
+        #green {
+            border: 5px solid green;
+            background-color: lightgreen;
+            border-radius: 5px;
+            width: 300px;
+            height: 280px;
+            position: relative;
+            left: 200px;
+            top: 200px;
+            z-index: 1;
+            
         }
         
-        span.special {
-            text-decoration: underline;
-        }
+        #blue {
+            border: 5px solid blue;
+            background-color: lightskyblue;
+            border-radius: 5px;
+            width: 300px;
+            height: 300px;
+            position: relative;
+            left: 100px;
+            top: 10px;
+            }
         
-        span.special {
-            text-decoration: line-through underline;
+        #red {
+            border: 5px solid red;
+            background-color: deeppink;
+            border-radius: 5px;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            left: 310px;
+            top: -250px;
+            z-index: 2;
         }
-        
-        #outer .inner {}
 
     </style>
     
 </head>
 
 <body>
-  <div id="container">
-      
-      <div id="outer">
-      <p class="inner">I am inside the outer div</p>
-          <p class="special">I am special</p>
-      </div>
-      
-      <p>Hello <span class="special">there</span>, I am a p tag.</p>
-      <h1>How are you <span class="special">doing</span>, I am a h1 tag</h1>
-
-
-</div>
+    <div id="playground">
+    <div id="green"></div>
+        <div id="blue"></div>
+        <div id="red"></div>
+        </div>
+    
 </body>
     
 </html>
+
